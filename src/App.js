@@ -9,10 +9,9 @@ class App extends Component {
     this.state = {
       user: {},
     };
-    this.updateUser = this.updateUser.bind(this);
   }
 
-  updateUser(user) {
+  updateUser=(user)=> {
     this.setState({
       user,
     });
